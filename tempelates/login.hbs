@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>login Form</title>
+  <link rel="stylesheet" type ="text/css" href="../login.css">
+</head>
+<body>
+  <div class="background">
+    <div class="shape"></div>
+    <div class="shape"></div>
+  </div>
+  <form action="/login" method="post">
+    <h3>Login Here</h3>
+
+    <label for="username">Name</label>
+    <input placeholder="Name" name="name" type="text">
+
+    <label for="password">Password</label>
+    <input placeholder="Password" name="password" type="password">
+
+     <input class="sub" type="submit" >
+    <div class="new">
+        New User? <a href="/signup">Sign Up</a>
+    </div>
+  </form>
+</body>
+</html>
